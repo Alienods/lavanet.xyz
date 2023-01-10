@@ -46,6 +46,18 @@ go version
 
 # Установка ноды
 
+### Date 10/01/2023 MAKE UPDATE instruction  on block 22300
+```python
+cd $HOME
+git clone https://github.com/lavanet/lava
+cd lava
+git fetch --all
+git checkout v0.4.3
+make install
+lavad version --long | head
+sudo systemctl restart lavad && sudo journalctl -u lavad -f -o cat
+```
+
 ### Скачиваем бинарные файлы
 ```python
 cd $HOME 
