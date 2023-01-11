@@ -46,7 +46,7 @@ go version
 
 # Установка ноды
 
-### Date 10/01/2023 MAKE UPDATE instruction  on block 22300
+### Важно!! Обновлять ноду только после 22 300 блока!!!
 ```python
 cd $HOME
 git clone https://github.com/lavanet/lava
